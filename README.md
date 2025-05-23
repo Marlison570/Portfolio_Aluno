@@ -15,6 +15,7 @@
     <meta name="twitter:title" content="Page Title">
     <meta name="twitter:description" content="Page description">
     <meta name="twitter:image" content="https://www.example.com/image.jpg">
+    <link rel="stylesheet" type = "text/css" href="styles.css">
 </head>
 <body>
     <header></header>
