@@ -1,0 +1,77 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    font-family: sans-serif;
+    background: url(../Img/img_fundo.png);
+    color: #eb5353;
+}
+header {
+    justify-content: space-between;
+    align-items: center;
+}
+nav {
+    display: flex;
+    gap: 15px;
+}
+footer {
+    justify-content: space-between;
+    align-items: center;
+    border-top: 1px solid #f8f8f8;
+    padding-top: 20px;
+}
+.container {
+    max-width: 1200px;
+    margin: auto;
+    padding-top: 20px;
+    display: flex;
+}
+.hero {
+    align-items: center;
+    justify-content: space-between;
+}
+.hero-text {
+    flex: 1;
+}
+.hero-img {
+    flex: 1;
+    background: #d8232300;
+    height: auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.cards {
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+.card {
+    flex: 1 1 calc(50% - 20px);
+    background: #ffffff00;
+    padding: 20px;
+    min-height: 300px;
+    min-width: 300px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 10px;
+}
+.card-img {
+    background: #ffffff;
+    flex: 1;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.btn {
+    background: #333;
+    color: #f9f9f9;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+}
+.btn:hover {
+    background: #555;
+}
