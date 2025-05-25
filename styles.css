@@ -5,8 +5,8 @@
 }
 body {
     font-family: sans-serif;
-    background: url(../Img/akatsuki_1.jpg);
-    color: #7c7b7b;
+    background: url(../Img/img_fundo.png);
+    color: #eb5353;
 }
 header {
     justify-content: space-between;
@@ -37,8 +37,8 @@ footer {
 }
 .hero-img {
     flex: 1;
-    background: #ccc;
-    height: 300px;
+    background: #d8232300;
+    height: auto;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -49,17 +49,17 @@ footer {
 }
 .card {
     flex: 1 1 calc(50% - 20px);
-    background: #eee;
+    background: #ffffff00;
     padding: 20px;
-    min-height: 200px;
-    min-width: 200px;
+    min-height: 300px;
+    min-width: 300px;
     display: flex;
     flex-direction: column;
     justify-content: center;
     gap: 10px;
 }
 .card-img {
-    background: #ccc;
+    background: #ffffff;
     flex: 1;
     display: flex;
     align-items: center;
