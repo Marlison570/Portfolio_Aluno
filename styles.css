@@ -5,8 +5,8 @@
 }
 body {
     font-family: sans-serif;
-    background: url(../Img/img_fundo.png);
-    color: #eb5353;
+    background: url(img/umg_fundo_2.jpg);
+    color: #000000;
 }
 header {
     justify-content: space-between;
@@ -59,7 +59,7 @@ footer {
     gap: 10px;
 }
 .card-img {
-    background: #ffffff;
+    background: #ffffff00;
     flex: 1;
     display: flex;
     align-items: center;
