@@ -15,6 +15,17 @@
     height: 5px;
     width: 60px;
     margin-top: 10px;
+    margin-left: -10px;
+}
+.linha-menu-center::before{
+    border-color: transparent #2f4bff #2f4bff transparent;
+    border-style: solid;
+    border-width: 5px;
+    content: '';
+    left: -10px;
+    position: absolute;
+    top: 22px;
+    transform: rotate(139deg);
 }
 
 .menu-toggle{
@@ -23,17 +34,20 @@
 
 @media(max-width: 768px ){
     .navbar-desktop{
-        display: none;
+        position: absolute;
+        opacity: 0;
+        width: 100%;
         flex-direction: column;
-        transition:  transform 0.3s ease-in-out;
-        transform: translate(-100%);
+        transition: transform 0.5s ease-in-out;
+        transform: translateY(-100%);
     }
-    
+
     .menu-icon{
         display: block;
         position: absolute;
         right: 0;
         margin: 10px;
+        z-index: 10;
        
     }
 
@@ -47,8 +61,11 @@
         top: 60px;
         left: 0;
         background-color: #64a5ef;
+        backdrop-filter: blur(10px);
         transition: all 0.3s ease;
-        transform: translate(0);
+        opacity: 1;
+        transform: translateY(0);
+        height: 100vh;
 }
     .linha-toggle:checked ~ .menu-icon .linha-menu-top {
         transform: translateY(9px) rotate(45deg) ;
