@@ -11,7 +11,7 @@ body{
 }
 
 header{
-    position: fixed;
+    position: flex;
     width: 100%;
     top: 0;
     display: flex;
@@ -34,7 +34,7 @@ a{
 }
 
 a:hover{
-    color: #2f11d6;
+    color: #2e11d6;
 }
 
 main{
