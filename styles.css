@@ -25,10 +25,20 @@ ul{
     list-style: none;
 }
 
+.navbar-desktop{
+    display: flex;
+    justify-content: flex-start;
+    gap: 10%;
+    margin-top: 50px;
+}
+
+.navbar-mobile{
+    display: none;
+}
 
 a{
     text-decoration: none;
-    color: #fff;
+    color: #0a0909;
     font-size: 1.5rem;
     text-shadow: 2px 4px gray;
 }
@@ -51,3 +61,17 @@ main{
     margin-right: 10px;
 }
 
+.botao-flutuante{
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    background-color: aqua;
+    border: none;
+    border-radius: 50%;
+    width: 60px;
+    height: 60px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    box-shadow: 0 4px 8px black;
+}
