@@ -1,5 +1,5 @@
 header{
-    position: fixed;
+    position: flex;
     width: 100%;
     top: 0;
     display: flex;
@@ -62,7 +62,7 @@ a:hover{
 }
 
 .linha-menu-center{
-    background-color: #385bce;
+    background-color: #f0f1f3;
     height: 5px;
     width: 60px;
     margin-top: 10px;
