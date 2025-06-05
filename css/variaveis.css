@@ -1,0 +1,10 @@
+:root {
+    --cor-texte-primerio:#ffffff ;
+    --cor-texte-segundario: #000000;
+    --cor-fundo-primerio: #dc79e9 ;
+    --cor-fundo-segundario: #ffff ;
+    --fonte-principal: 'Arial', sans-serif ;
+    --escapamento: 1rem ;
+    --tamanho-fonte: 16px ;
+    
+}
